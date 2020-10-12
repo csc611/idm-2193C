@@ -57,3 +57,21 @@
 p {
   margin-left: 50px;
 }
+
+#animation {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+   
+  color: black;
+  background-color: red; 
+   
+   transition: background-color 1s linear; 
+  -moz-transition: background-color 1s linear;  
+  -webkit-transition: background-color 1s linear; 
+  -ms-transition: background-color 1s linear; 
+}
+
+#animation:hover {
+  background-color: blue;
+}
