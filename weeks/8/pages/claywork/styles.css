@@ -156,10 +156,16 @@ p {
   margin-left: 20px;
 }
 
-/* back to top */
+
+/* footer- and back to top */
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
 
 #back-up {
-  justify-content: center;
+  align-self: center;
   color: black;
   text-transform: uppercase;
   font-size: 13px;

@@ -37,15 +37,65 @@
           <br>
           <p>New York University '22<br>Integrated Digital Media (IDM) B.S.<p>
           <br>
-          <a href="resumehaha.pdf" id="resume">Resume</a>
+          <a href="resumehaha.pdf" id="resume">[Resume]</a>
           <div id="line-type2"></div>
           <section id="about-me">
             Informational text will be written later. (placeholder text)
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean et tortor at. Massa massa ultricies mi quis hendrerit. Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Dolor magna eget est lorem ipsum dolor sit. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Sociis natoque penatibus et magnis dis. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus.
           </section>
         </div>
+      </div>
+
+      <br>
+              
+      <div class="links">
+        <div id="design" onclick="switchLocation(0)">
+          <p id="title">DESIGN</p>
+          <script>
+            function switchLocation(counter) {
+              if (counter == 0) {
+                counter = 1;
+                setTimeout(function() {
+                  switchLocation(counter);
+                }, 200);
+              } else {
+                window.location = "../design/index.html";
+              }
+            }
+          </script>
+        </div>
+        <div id="lettering" onclick="switchLocation2(0)"><p id="title">LETTERING</p>
+          <script>
+            function switchLocation2(counter) {
+              if (counter == 0) {
+                counter = 1;
+                setTimeout(function() {
+                  switchLocation2(counter);
+                }, 200);
+              } else {
+                window.location = "../lettering/index.html";
+              }
+            }
+          </script>
+        </div>
+        
+        <div id="claywork" onclick="switchLocation3(0)"><p id="title">CLAYWORK</p>
+          <script>
+            function switchLocation3(counter) {
+              if (counter == 0) {
+                counter = 1;
+                setTimeout(function() {
+                  switchLocation3(counter);
+                }, 200);
+              } else {
+                window.location = "../claywork/index.html";
+              }
+            }
+          </script>
+        </div>
 
       </div>
+
     </body>
 
 </html>
