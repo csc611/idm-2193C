@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* logo */
+
+#logo-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#logo {
+  width: 150px;
+}
+
+/* nav-bar */
+
+.nav-bar-link-wrapper {
+  display: flex;
+  height: 55px;
+  width: 100%;
+  justify-content: center;
+  align-items: right;
+}
+
+.nav-bar-link-wrapper > a {
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.nav-bar-link-wrapper > a:hover {
+  text-decoration: underline;
+}
+
+#current {
+  font-weight: 700;
+}
+
+#line {
+  width: 600px;
+  height: 30px;
+  border-top: 0.5px solid black;
+}
+
+/* design page-content */
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+/* column-one */
+
+#column-one {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#design1 {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+#design2 {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.caption {
+  padding-top: 10px;
+  font-size: 12px;
+  font-style: normal;
+}
+
+#information-left{
+  padding-top:20px;
+  width: 400px;
+  text-align: justify;
+}
+
+#line-left {
+  width: 400px;
+  height: 30px;
+  border-top: 0.5px solid black;
+  margin-top: 50px;
+}
+
+
+/* column-two */
+
+#column-two {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#information-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  justify-items: flex-start;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+p {
+  font-style: italic;
+  font-weight: 400;
+}
+
+#information-right {
+  padding-top:20px;
+  width: 400px;
+  text-align: justify;
+}
+
+#design3 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+#right {
+  padding-left: 20px;
+}
+
+#line-right {
+  width: 400px;
+  height: 30px;
+  border-top: 0.5px solid black;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+/* back to top */
+
+#back-up {
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 30px;
+}
+
+#back-up:hover {
+ font-weight: 700;;
+}
