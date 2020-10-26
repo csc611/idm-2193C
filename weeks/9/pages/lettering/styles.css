@@ -10,6 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #bbaf9ddc;
+  padding-bottom:20px;
 }
 /* logo */
 
@@ -36,9 +38,10 @@
 .nav-bar-link-wrapper > a {
   margin: 10px;
   padding: 10px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .nav-bar-link-wrapper > a:hover {
@@ -46,13 +49,7 @@
 }
 
 #current {
-  font-weight: 700;
-}
-
-#line {
-  width: 600px;
-  height: 30px;
-  border-top: 0.5px solid black;
+  color: rgb(19, 19, 19);
 }
 
 /* design page-content */
@@ -60,7 +57,10 @@
 .page-content {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  background-color: white;
+  padding: 70px;
+  border-left: 200px solid #bbaf9ddc;
+  border-right: 200px solid #bbaf9ddc;
 }
 
 
@@ -74,26 +74,29 @@
 
 #design1 {
   width: 400px;
-  height: 400px;
-  border: 1px solid black;
+  height: 300px;
+  opacity: 1;
 }
 
 #design2 {
   width: 400px;
-  height: 300px;
-  border: 1px solid black;
+  height: 200px;
+  opacity: 1;
+}
+
+#design3 {
+  width: 400px;
+  height: 200px;
+  opacity: 1;
 }
 
 .caption {
   padding-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
-}
-
-#information-left{
-  padding-top:20px;
-  width: 400px;
-  text-align: justify;
+  font-weight: bold;
+  padding-bottom: 50px;
+  text-align: right;
 }
 
 #line-left {
@@ -120,7 +123,6 @@
 }
 
 h1 {
-  padding-top: 20px;
   font-size: 25px;
   padding-left: 20px;
 }
@@ -131,48 +133,62 @@ p {
 }
 
 #information-right {
-  padding-top:20px;
+  padding-top: 20px;
   width: 400px;
-  text-align: justify;
+  padding-left: 20px;
+  text-align: left;
 }
 
-#design3 {
+#design4 {
   width: 400px;
-  height: 500px;
-  border: 1px solid black;
+  height: 300px;
   margin-left: 20px;
   margin-top: 30px;
 }
 
+#design5 {
+  width: 400px;
+  height: 350px;
+  margin-left: 20px;
+}
+
 #right {
   padding-left: 20px;
+  text-align: left;
 }
 
 #line-right {
   width: 400px;
   height: 30px;
   border-top: 0.5px solid black;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 20px;
 }
-
 
 /* footer- and back to top */
 
 #footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  background-color: #bbaf9ddc;
 }
 
 #back-up {
   align-self: center;
-  color: black;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 1px;
-  padding: 30px;
+  padding: 50px;
 }
 
 #back-up:hover {
  font-weight: 700;;
+}
+
+#cr {
+  color: white;
+  align-self: center;
+  padding-bottom: 30px;
 }
