@@ -69,11 +69,12 @@ function blueClick(){
 
 // MIXING ----------------------------------------------
 
-if ((redClicked && yellowClicked) === true){
+if (redClicked && yellowClicked === true){
   theBody.style.backgroundColor = "orange";
   redClicked = false;
   yellowClicked = false;
   theText.textContent = "red and yellow make orange!";
+  console.log("orange")
 }
 
 if ((redClicked && blueClicked) === true){
@@ -81,6 +82,7 @@ if ((redClicked && blueClicked) === true){
   redClicked = false;
   blueClicked = false;
   theText.textContent = "red and blue make purple!";
+  console.log("purple")
 }
 
 if ((yellowClicked && blueClicked) === true){
@@ -88,4 +90,5 @@ if ((yellowClicked && blueClicked) === true){
   yellowClicked = false;
   blueClicked = false;
   theText.textContent = "yellow and blue make green!";
+  console.log("green")
 }

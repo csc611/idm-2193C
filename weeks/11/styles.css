@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+header {
+  padding-top: 20px;
+}
+
+#link {
+  color: black;
+  font-size: 20;
+  font-weight: 500;
+  padding: 20;
+}
+
+#link:hover {
+  font-weight: 600;
+}
+
+p {
+  padding: 20px;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 80px;
+}
+
+p:hover {
+  color: rgb(116, 116, 116);
+  -webkit-text-stroke: 2px black;
+}
+
+#column {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+#num {
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 200px;
+}
+
+#speechc {
+  padding-top: 120px;
+}
+
+#speechc:hover {
+  color: rgb(161, 109, 109);
+}
+
+#writingc {
+  padding-top: 120px;
+}
+
+#writingc:hover {
+  color: rgb(96, 151, 84);
+}
+
+#printingc {
+  padding-top: 120px;
+} 
+
+#printingc:hover {
+  color: rgb(155, 150, 88);
+}
+
+#computersc {
+  padding-top: 120px;
+} 
+
+#computersc:hover {
+  color: rgb(94, 109, 160);
+}
