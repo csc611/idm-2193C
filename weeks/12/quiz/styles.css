@@ -1,0 +1,113 @@
+/* BODY AND CONTAINER ---------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+.quiz-container {
+  width: 80%;
+  padding: 200px 100px;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+}
+
+/* QUESTION AND OPTIONS --------------------------------*/
+
+.question {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+}
+
+.option {
+  padding: 0.5rem;
+  color: #000000bb;
+  width: 80%;
+  border-radius: 5px;
+  transition: all 0.3s;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.option:hover {
+  color:rgb(29, 29, 29);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.option input:checked .option {
+  color: rgb(27, 27, 27);
+}
+
+/* CONTROL AND BUTTONS ----------------------------- */
+
+.controls > * {
+  margin: 1rem;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+  color: white;
+  outline: none;
+  transform: scale(0.98);
+  transition: all 0.2s;
+}
+
+button.previous {
+  background-color: rgb(221, 221, 221);
+}
+
+button.previous:hover {
+  background: #fcb3db;
+}
+
+button.next {
+  background-color: rgb(221, 221, 221);
+}
+
+button.next:hover {
+  background: #8cc2f8;
+}
+
+button.restart {
+  background-color: rgb(221, 221, 221);
+  color: #00000050;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.4s;
+}
+
+button.restart:hover {
+  background: pink;
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.05);
+  font-weight: 500;
+}
+
+
+/* RESULTS ------------------------------------------*/
+
+.result {
+  display: none;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.final-score {
+  color: #000000;
+}

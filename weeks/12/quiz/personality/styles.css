@@ -1,0 +1,110 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary {
+  font-size: 1rem;
+  color: #0000008e;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.summary h1 {
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 80px;
+  letter-spacing: -5px;
+  color: black;
+}
+
+#title {
+  color: black;
+  padding-bottom: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+#orange-box {
+  background-color: orange;
+  width: 20vh;
+  height: 5px;
+}
+
+#gold-box {
+  background-color: gold;
+  width: 20vh;
+  height: 5px;
+}
+
+#green-box {
+  background-color: rgb(92, 141, 92);
+  width: 20vh;
+  height: 5px;
+}
+
+#blue-box {
+  background-color: rgb(62, 78, 145);
+  width: 20vh;
+  height: 5px;
+}
+
+#orange {
+  color: orange;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+#gold {
+ color: gold;
+ font-weight: 800;
+ font-size: 50px;
+}
+
+#green {
+ color: rgb(92, 141, 92);
+ font-weight: 800;
+ font-size: 50px;
+}
+
+#blue {
+ color: rgb(62, 78, 145);
+ font-weight: 800;
+ font-size: 50px;
+}
+
+button {
+  align-self: center;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+  color: white;
+  outline: none;
+  transform: scale(0.98);
+  transition: all 0.2s;
+  background-color: rgb(221, 221, 221);
+}
+
+button:hover {
+  background-color: pink;
+  color: white;
+}
+
+
+#restart-button {
+  align-self: center;
+  padding: 50px;
+}

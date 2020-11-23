@@ -1,0 +1,55 @@
+* {
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+}
+
+section {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto 150px;
+}
+
+p {
+  padding-top: 200px;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  line-height: 1.1;
+  grid-column: 1 / 4;
+}
+
+#color-word {
+  font-size: 2.5em;
+  color: pink;
+}
+
+a {
+  width: 100%;
+  grid-column: 4;
+  text-decoration: none;
+}
+
+#button {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(221, 221, 221);
+  outline: none;
+  transform: scale(0.98);
+  transition: all 0.2s;
+  text-align: center;
+  display: flex;
+}
+
+#button:hover {
+  background-color: pink;
+}
+
+#arrow {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin: auto;
+}
