@@ -69,6 +69,8 @@ function blueClick(){
 
 // MIXING ----------------------------------------------
 
+//this part did not work the way we wanted it to :(
+
 if (redClicked && yellowClicked === true){
   theBody.style.backgroundColor = "orange";
   redClicked = false;

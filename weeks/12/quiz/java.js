@@ -138,6 +138,7 @@ function generateQuestions (index) {
     const option2Total = questions[index].answer2Total;
     const option3Total = questions[index].answer3Total;
     const option4Total = questions[index].answer4Total;
+    
     //Populate html elements 
     theQuestion.innerHTML = `${index + 1}. ${question.question}`
     option1.setAttribute('data-total', `${option1Total}`);
